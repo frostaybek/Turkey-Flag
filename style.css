@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: calibri;
+    color: white;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right, #ff6e7f, #bfe9ff);
+}
+
+img{
+    object-fit: cover;
+    height: 50vh;
+    border-radius: 4%;
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+}
+
+img:hover{
+    transform: scale(1.1);
+}
